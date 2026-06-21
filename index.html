@@ -8,9 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-  <!-- awesome font 6 for socials icon -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <!-- awesome font 6 for icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
 </head>
 <body>
   <header>
@@ -20,6 +21,7 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#techstack">Tech Stack</a></li>
           <li><a href="https://www.dicoding.com/users/07_eji_putrahr4c/academies" target="_blank">Profile</a></li>
         </ul>
       </nav>
@@ -36,7 +38,7 @@
           <button onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">About Me</button>
         </div>
         <div class="home-img">
-          <img src="img/MyOtherPicture.jpeg"alt="Eji Putra avatar" />
+          <img src="img/MyOtherPicture.jpeg" alt="Eji Putra avatar" />
         </div>
       </div>
     </section>
@@ -45,7 +47,7 @@
     <section id="about">
       <div class="about-content">
         <aside>
-          <img src="img/MyPicture.jpeg"alt="Eji Putra"/>
+          <img src="img/MyPicture.jpeg" alt="Eji Putra"/>
           <h2>Eji Putra</h2>
           <p>Cianjur, Indonesia</p>
         </aside>
@@ -74,6 +76,37 @@
             </a>
           </div>
         </article>
+      </div>
+    </section>
+
+    <!-- tech stack -->
+    <section id="techstack">
+      <div class="techstack-header">
+        <h2>My <span>Tech Stack</span></h2>
+        <p>Teknologi yang saya pelajari</p>
+      </div>
+
+      <div class="techstack-container">
+        <!-- html -->
+        <div class="tech-card html">
+          <span class="tech-icon"><i class="fab fa-html5"></i></span>
+          <h3>HTML5</h3>
+          <p>Struktur dasar halaman web</p>
+        </div>
+
+        <!-- css -->
+        <div class="tech-card css">
+          <span class="tech-icon"><i class="fab fa-css3-alt"></i></span>
+          <h3>CSS3</h3>
+          <p>Styling & desain visual</p>
+        </div>
+
+        <!-- javascript -->
+        <div class="tech-card js">
+          <span class="tech-icon"><i class="fab fa-js"></i></span>
+          <h3>JavaScript</h3>
+          <p>Interaktivitas & logika web</p>
+        </div>
       </div>
     </section>
   </main>
